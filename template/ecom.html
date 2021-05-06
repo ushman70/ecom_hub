@@ -1,0 +1,167 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="../ecom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="i-like-robots-EasyZoom-17be503/css/easyzoom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <title>E-com site</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <ul class="container">
+        <li class="Game-Systems">Game Systems
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="#">PS5</a></li>
+              <li><a href="#">PS4</a></li>
+              <li><a href="#">Xbox Series X</a></li>
+              <li><a href="#">Nintendo Wii U</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="Action-Figures">Action Figures
+          <div class="sub-menu-2">
+            <ul>
+              <li><a href="#">Gundam Model kits</a></li>
+              <li><a href="#">DBZ figurines</a></li>
+              <li><a href="#">Boku No Hero figurines</a></li>
+              <li><a href="">Naruto figurines</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="Gamer-Merch">Gamer Merch
+          <div class="sub-menu-3">
+            <ul>
+              <li><a href="">Shirts</a></li>
+              <li><a href="">Posters</a></li>
+              <li><a href="">Gamer Mug</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="Gaming-pcs">Gaming Pcs
+          <div class="sub-menu-4">
+            <ul>
+              <li><a href="">Alienware Aurora R11 Gaming Desktop</a></li>
+              <li><a href="">Corsair Vengeance 6182</a></li>
+              <li><a href="">MSI Trident A Plus</a></li>
+              <li><a href="">ASUS ROG Strix GA15</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <img class ="cart-img" src="./shopping-cart.png"/>
+      <h1 class="logo">Ecomhub</h1>
+      <input type="text" placeholder="Search" class="search-bar">
+    </div>
+    <div class="slideshow">
+       
+    </div>
+    <div id="hot-deals" class="easyzoom">
+     <h2 class="hot-deals-title">Best Sellers!</h2>
+     <hr class="divider">
+     <div class="container-2">
+       <ul class="ps5-best">
+         <li><img src="./ps5-icon.jpg"></li>
+         <br>
+         <li>Playstation 5</li>
+         <li>$399.99</li>
+       </ul>
+       <ul class="UI-best">
+         <li><img src="./UI-goku.jpg"></li>
+         <br>
+         <br>
+         <li>Ultra Instinct Goku figure</li>
+         <li>$49.99</li>
+         <button type="submit">Add to cart</button>
+         <button onclick="removeuigoku();">Remove</button>
+         <label for="Quantity">Quantity</label>
+         <input type="number" id="quantity" name="Quantity" min="0" max="5">
+       </ul>
+       <ul class="genesis-best">
+         <li><img src="./genesis-hoodie.jpg"></li>
+         <li>Evangelion Hoodie</li>
+         <li>$45.99</li>
+       </ul>
+     </div>
+     <hr>
+     <div class="container-3">
+       <ul class="poster-best">
+         <il><img src="./cool-poster.jpg"></il>
+         <br>
+         <il>Naruto Multiple eyes poster</il>
+         <br>
+         <il>$59.99</il>
+       </ul>
+       <ul class="gundam-best">
+         <li><img src="./RG-gundam.jpg"></li>
+         <li>RG gundam</li>
+         <li>$59.99</li>
+       </ul>
+       <ul class="ASUS-best">
+        <li><img src="./AsusROGicon.jpg"></imh></li>
+        <li>ASUS ROG Strix GA15</li>
+        <li>$1099.99</li>
+       </ul>
+     </div>
+    </div>
+    <div id="form-wrapper">
+    <div class="form-container">
+      <br>
+      <br>
+      <br>
+      <h3 class="form-heading">Sign up for the latest deals!</h3>
+      <form>
+        <label for="email" class="email-color">Email</label>
+        <input id="email" name="email" type="text">
+        <br>
+        <button class="sub-button">Submit</button>
+      </form>
+    </div>
+    </div>
+    <hr class="divider">
+    <div id="footer-wrapper">
+      <footer id="footer">
+        <ul class="footer-items">
+          <li>About Us</li>
+          <li>Terms of Service</li>
+          <li>Help Center</li>
+          <li>Privacy Settings</li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <p class="copyright">© 2020 Ecomhub, Inc.</p> 
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../ecom.js"></script>
+    <script src="i-like-robots-EasyZoom-17be503/dist/easyzoom.js"></script>
+    <script>
+    
+    
+    // Instantiate EasyZoom instances
+    var $easyzoom = $('.easyzoom').easyZoom();
+    
+    // Get an instance API
+    var api = $easyzoom.data('easyZoom');
+    console.log($easyzoom);
+    
+    
+    </script> 
+  </body>
+</html>
+
+
+
+

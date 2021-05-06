@@ -1,0 +1,1082 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    
+    
+    
+}
+
+
+.topnav {
+    list-style: none;
+ text-align: center;   
+ background: rgb(0, 0, 0);
+}
+
+.search-bar {
+ border-radius: 25px;
+ width: 50%;
+ margin-top: 2px;
+}
+
+.logo {
+    margin-right: 32em;
+    margin-top: 1em;
+    color: #fff;
+}
+
+.container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.sub-menu-1 {
+    display: none;
+}
+
+.topnav .container .Game-Systems:hover .sub-menu-1 {
+    display: block;
+    border-radius: 3px;
+}
+
+.Game-Systems {
+   background-color: transparent; 
+   cursor: pointer;
+   border: 1px solid #fff;
+   padding: 15px;
+   color: #fff;
+   list-style: none;
+   
+}
+
+.Game-Systems a {
+    list-style: none;
+    color: white;
+    
+}
+
+.Game-Systems li {
+    list-style: none;
+}
+
+.Game-Systems li:hover {
+    background-color: #000080;
+    display: block;
+    min-width: 158px;
+    z-index: 1;
+    position: relative;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.topnav .container .Action-Figures:hover .sub-menu-2 {
+    display: block;
+    border-radius: 3px;
+}
+
+.Action-Figures {
+    background-color: transparent; 
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 15px;
+    color: #fff;
+}
+
+.Action-Figures li {
+    list-style: none;
+}
+
+.Action-Figures a {
+    color: white;
+
+}
+
+.Action-Figures li:hover {
+    background-color: #000080;
+    display: block;
+    min-width: 158px;
+    z-index: 1;
+    position: relative;
+}
+
+.sub-menu-3 {
+    display: none;
+}
+
+.Gamer-Merch {
+    background-color: transparent; 
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 15px;
+    color: #fff;
+}
+
+.topnav .container .Gamer-Merch:hover .sub-menu-3 {
+    display: block;
+    border-radius: 3px;
+}
+
+.Gamer-Merch a {
+    color: white;
+}
+
+.Gamer-Merch li {
+    list-style: none;
+}
+
+.Gamer-Merch li:hover {
+    background-color: #000080;
+    display: block;
+    min-width: 158px;
+    z-index: 1;
+    position: relative;
+}
+
+.sub-menu-4 {
+    display: none;
+}
+
+.Gaming-pcs {
+    background-color: transparent; 
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 15px;
+    color: #fff; 
+}
+
+.topnav .container .Gaming-pcs:hover .sub-menu-4 {
+    display: block;
+    border-radius: 3px;
+}
+
+.Gaming-pcs a {
+    color: white;
+}
+
+.Gaming-pcs li {
+    list-style: none;
+}
+
+.Gaming-pcs li:hover {
+    background-color: #000080;
+    display: block;
+    min-width: 158px;
+    z-index: 1;
+    position: relative;
+}
+
+.slideshow{
+    width: 100%;
+    height: 12rem;
+    position: relative;
+    padding: 1rem;
+    
+}
+
+.slideshow .content {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+
+
+.slideshow-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 4rem;
+
+    transition: all 0.5s;
+    transform: translateX(100%);
+    z-index: 10;
+    opacity: 0;
+    text-align: center;
+}
+
+
+.slideshow-item:nth-child(1) {
+background-color: hsl(60, 40%, 80%);
+}
+
+.slideshow-item:nth-child(2) {
+background-color: hsl(60, 40%, 80%);   
+}
+
+.slideshow-item:nth-child(3) {
+background-color: hsl(60, 40%, 80%);   
+}
+
+.slide-para {
+background-color: hsl(60, 40%, 80%);
+padding-bottom: 5%;
+}
+
+.current {
+transform: translateX(0);
+
+opacity: 1;
+}
+
+.leaving {
+transform: translateX(-100%);
+opacity: 0;
+}
+
+
+.hot-deals-title {
+    text-align: center;
+    
+}
+
+.divider {
+    width: 50%;
+    border-top: silver;
+}
+
+.divider_2{
+    width: 100%;
+    margin-left: 2rem;
+
+}
+
+
+   
+
+.ps5-best li{
+ text-align: center;
+ list-style-type: none;
+ 
+}
+
+.UI-best{
+    text-align: center;
+    list-style-type: none;  
+    margin-top: 80px; 
+    margin-right: 120px;
+    
+}
+
+.genesis-best{
+    margin-top: 80px;
+    text-align: center;
+    list-style-type: none; 
+    
+}
+
+.poster-best{
+    text-align: center;
+    list-style-type: none;  
+    display: inline;
+    float: left;
+    position: absolute;
+    left: 150px;
+    
+}
+.gundam-best{
+    text-align: center;
+    list-style-type: none;  
+    float: right;
+    position: absolute;
+    right: 90px;
+    
+}
+
+.ASUS-best{
+    text-align: center;
+    list-style-type: none; 
+    
+}
+
+.form-container{
+    text-align: center;
+    height: 25rem;
+    background-image: url('./yuyu.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 5rem 0 5rem;
+    background-color: hsl(195, 100%, 40%);
+}
+
+#form-wrapper{
+  text-align: center;  
+    
+}
+
+form{
+    position: relative;
+    right: 55px;
+    
+    top: 3rem;
+}
+
+.email-color{
+    color: #fff;
+}
+
+.sub-button{
+    position: relative;
+    left: 20px;
+}
+
+.form-heading{
+    position: relative;
+    right: 17px;
+    color: hsl(16, 100%, 40%);
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+.copyright{
+    float: right;
+}
+
+#footer-wrapper{
+    background-image: url('./ABSTRACT-3.jpg');
+    background-repeat: no-repeat;
+    height: 8rem;
+    
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-items li {
+    text-decoration: underline;
+}
+
+element:hover, element:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+    -webkit-touch-callout: none /*only to disable context menu on long press*/
+    }
+
+    
+  
+
+
+
+.tri .pdt-rate {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
+}
+
+
+.rating-stars {
+    position: relative;
+    vertical-align: baseline;
+    color: #b9b9b9;
+    line-height: 10px;
+    float: left;
+}
+
+.grey-stars {
+    height: 100%;
+}
+
+.filled-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    color: #f7bf17;
+}
+
+
+.filled-stars:before,
+.grey-stars:before {
+    content: "\2605\2605\2605\2605\2605";
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.tri .filled-stars:before,
+.tri .grey-stars:before {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+:root {
+    --primary-color: #f7bf17;
+    --linear: #ef5350;
+    --white: #fff;
+    --r-color: #d63031;
+    --light-b: #686de0;
+}
+
+.rating-review {
+    height: 100%;
+    width: 85%;
+    margin: 100px auto;
+    background: #f9f9f9;
+}
+
+.rating-review table {
+    width: 100%;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #8f8f8f;
+    margin-bottom: .625rem;
+    width: 100%;
+}
+
+.rating-review table,
+.rating-review td,
+.rating-review th {
+    font-size: .8125rem;
+    text-align: center;
+}
+
+.rating-review td {
+  
+    width: 33.3%;
+}
+
+.tri {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px;
+}
+
+.rnb h3 {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-family: "roboto", sans-serif;
+}
+
+
+
+.rating-stars {
+    position: relative;
+    vertical-align: baseline;
+    color: #b9b9b9;
+    line-height: 10px;
+    float: left;
+}
+
+.grey-stars {
+    height: 100%;
+    
+}
+
+
+
+.filled-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow:hidden;
+    color: #f7bf17;
+}
+
+
+
+
+.filled-stars:before,
+.grey-stars:before {
+    z-index: 10;
+    content: "\2605\2605\2605\2605\2605";
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.tri .filled-stars:before,
+.tri .grey-stars:before {
+    font-size: 20px;
+    line-height: 23px;
+}
+.rnrn {
+    color: #888;
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.rpb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rnpb {
+    display: flex;
+    width: 100%
+}
+
+.rnpb label:first-child {
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.rnpb label:last-child {
+    margin-left: 3px;
+    margin-top: -2px;
+}
+.rnpb label i {
+    color: var(--primary-color)
+}
+
+.ropb {
+    height: 10px;
+    width: 75%;
+    background-color: #f1f1f1;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.ripb {
+    height: 100%;
+    background-color: #f7bf17;
+    border: 1px solid #a0a0a0;
+}
+
+.rrb p {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: raleway;
+    margin-bottom: 10px;
+}
+
+.rrb button {
+    width: 220px;
+    height: 40px;
+    background: black;
+    color: var(--white);
+    border: 0;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: "roboto", sans-serif;
+    box-shadow: 0px 2px 2px var(--light-b);
+    cursor: pointer;
+}
+
+.rrb button:hover {
+    opacity: .9;
+}
+
+
+
+.review-bg {
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+
+}
+
+.review-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.rmp {
+    width: 400px;
+    height: auto;
+    background: var(--white);
+    border-radius: 10px;
+    animation: scaleUp .7s linear;
+    transition: all .7s ease-in-out;
+    z-index: 201;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.2);
+    }
+
+    25% {
+        transform: scale(.8);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    75% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.rpc {
+    text-align: right;
+    padding: 6px 15px;
+    font-size: 1.5rem;
+    color: var(--linear);
+}
+
+.rpc span {
+    cursor: pointer;
+}
+
+.rps {
+    padding-bottom: 20px;
+}
+
+.rps i {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.rptf textarea,
+.rptf input {
+    width: 80%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    resize: none;
+    min-height: 80px;
+    margin-bottom: 10px;
+    font-family: "roboto", sans-serif;
+    font-size: .9rem;
+    font-weight: 100;
+    color: var(--t-color);
+}
+.rptf input {
+    min-height: 10px !important;
+
+}
+.rate-error {
+    font-size: 12px;
+    color: var(--r-color);
+    font-family: "roboto", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.rpsb button {
+    color: var(--white);
+    background: black;
+    border: 0;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-family: "roboto", sans-serif;
+    cursor: pointer;
+}
+
+.rpsb button:hover {
+    opacity: .9;
+}
+
+.bri {
+    overflow: hidden;
+    height: 100%
+}
+
+.uscm-secs {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.us-img {
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-img p {
+    background: var(--light-b);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+}
+
+.uscms {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+}
+
+.bri .filled-stars::before,
+.bri .grey-stars::before {
+    font-size: 24px;
+}
+
+.us-cmt p {
+    font-size: .9rem;
+    padding: 10px 10px 10px 0;
+    color: #333;
+    font-weight: 500;
+    font-family: raleway;
+}
+
+.us-nm p {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #888;
+    font-family: "roboto", sans-serif;
+}
+
+#gun1 {
+    transition: transform .2s; /* Animation */
+  }
+  
+  #gun1:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  #gun2 {
+    transition: transform .2s; /* Animation */
+  }
+  
+  #gun2:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  #gun3 {
+    transition: transform .2s; /* Animation */
+  }
+  
+  #gun3:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  #gun4 {
+    transition: transform .2s; /* Animation */
+    padding: 0;
+  }
+  
+  #gun4:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .w-bg{
+    background-image: url("img/cool-background.png");
+  }
+  
+  #firsthr {
+    position: relative;
+    right: 18em;
+    width:16%;
+    text-align:left;
+   
+    background-color:#000000;
+  }
+
+  #secondhr{
+    width:16%;text-align:right;background-color:#000000;margin-right:3em;
+  }
+
+  @media only screen and (max-width: 850px){
+    body {
+        width: 550px;
+        max-width: 100%;
+        
+        
+    }
+    
+}
+
+@media only screen and (max-width: 850px){
+  .w-bg {
+    width: 370px;
+    height: auto;
+   
+  }
+
+  footer {
+    width: 370px;
+    height: auto;
+   
+  }
+  
+}
+
+
+
+  @media only screen and (max-width: 850px){
+    #narutofront {
+      width: 150px;
+      height: 200px;
+      
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #gun1 {
+      width: 200px;
+      height: 200px;
+      max-width: 100%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #gun2 {
+      width: 200px;
+      height: 200px;
+      max-width: 100%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #gun3 {
+      width: 400px;
+      height: 200px;
+      
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #gun4 {
+      width: 200px;
+      height: 200px;
+     
+    }
+    
+  }
+
+@media only screen and (max-width: 850px){
+  #image {
+    width: 370px;
+    height: auto;
+    position: relative;
+    left: 50px;
+    
+    
+  }
+  
+}
+
+@media only screen and (max-width: 850px){
+  #caro {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+      
+  }
+  
+}
+
+@media only screen and (max-width: 850px){
+  .topnav {
+    width: 370px;
+    height: auto;
+    
+    
+  }
+  
+}
+
+@media only screen and (max-width: 850px){
+  #crt_table {
+    width: 250px;
+    height: auto;
+    max-width: 90%;
+     
+  }
+  
+}
+
+@media only screen and (max-width: 850px){
+  #button{
+      z-index: 100;
+  }
+
+}
+
+@media only screen and (max-width: 850px){
+    #firsthr{
+        width: 0%;
+    }
+  
+  }
+
+  @media only screen and (max-width: 850px){
+    #secondhr{
+        width: 0%;
+    }
+  
+  }
+
+  @media only screen and (max-width: 850px){
+    #spike{
+        width: 250px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 850px){
+    #checkbody {
+      width: 250px;
+      height: 250px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #fixtext {
+      position: relative;
+      right: 40px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 850px){
+    #fixtext2 {
+      position: relative;
+      left: 40px;
+    }
+    
+  }
+
+  
+
+  @media only screen and (max-width: 850px){
+    .slideshow{
+        width: 0%;
+        
+        
+        padding: 0rem;
+        
+    }
+
+    .slideshow .content {
+        width: 0%;
+        
+        max-width: 0%;
+        
+    }
+
+    
+.slideshow-item{
+    
+
+    
+    
+    opacity: 0;
+    text-align: center;
+}
+.leaving {
+    
+    opacity: 0;
+    }
+    
+  }
+
+ 
+  
+
+  .enlarge {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .enlarge:hover {
+    transform: scale(4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .dark{
+      color: black;
+  }
+
+  
+ 
+ 
+
+  
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
